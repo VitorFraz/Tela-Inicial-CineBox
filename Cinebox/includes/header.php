@@ -4,7 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CineBox</title>
+    <title>
+        <?php
+        if (isset($titulo) && empty($titulo)){
+            echo $titulo;
+        } else {
+            echo 'CineBox';
+        }
+
+        ?>
+    </title>
+
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/carrossel.css">
 </head>
@@ -16,8 +26,8 @@
                 <h1>Cine Box</h1>
             </a>
             <ul class="menu">
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Filmes</a></li>
+                <li><a href="./index.php">Inicio</a></li>
+                <li><a href="./listarfilmes.php">Filmes</a></li>
                 <li><a href="#">Sobre</a></li>
             </ul>
 
