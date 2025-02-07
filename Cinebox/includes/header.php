@@ -32,10 +32,10 @@
             </ul>
 
             <ul class="menu_icones">
-                <li><a href="#">ico</a></li>
-                <li><a href="#">ico</a></li>
-                <li><a href="#">ico</a></li>
-                <li><a href="#">ico</a></li>
+                <li><a href="#"><i class="bi bi-search"></i></a></li>
+                <li><a href="#"><i class="bi bi-heart-fill"></i></a></li>
+                <li><a href="#"><i class="bi bi-cart"></i></a></li>
+                <li><a href="#"><i class="bi bi-person-circle"></i></a></li>
             </ul>
         </nav>
     </header>
