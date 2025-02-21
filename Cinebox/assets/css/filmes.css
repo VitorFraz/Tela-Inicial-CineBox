@@ -63,8 +63,8 @@
 }
 
 #filmes_recomendados span.genero>label{
-background-color: tomato;
-padding: 1px 5px;
-color: #f2f2f2;
-border-radius: 10px;
+    background-color: tomato;
+    padding: 1px 5px;
+    color: #f2f2f2;
+    border-radius: 10px;
 }
