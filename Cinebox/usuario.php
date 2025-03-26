@@ -1,4 +1,5 @@
 <?php
+require './classes/Filmes.php';
 include './includes/header.php';
 
     if ($_SERVER['REQUEST_METHOD'] == 'GET' && !empty($_GET) && $_GET['sair'] == 'true') {
@@ -10,7 +11,8 @@ include './includes/header.php';
         header('location:usuario-login.php');
     }
 
-
+$filme = new Filmes();
+$resultadoConsultaFilmes = $filme->exibirListarFilmes();
 ?>
 <link rel="stylesheet" href="./assets/css/usuario.css">
     <section id="usuario-principal">
