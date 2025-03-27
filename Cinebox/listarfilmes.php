@@ -1,5 +1,6 @@
 <?php
 require './classes/Filmes.php';
+require './classes/Generos.php';
 
 $titulo = 'CineBox - Filmes';
 include './includes/header.php';
@@ -7,5 +8,8 @@ include './includes/header.php';
 $filme = new Filmes();
 $dadosFilmes = $filme->exibirListarFilmes();
 
-include './includes/filme_lista.php';
+$genero = new Generos();
+$dadosGeneros = $genero->consultarListaGeneros();
+
+include './includes/filmes_filtro.php';
 include './includes/footer.php';
