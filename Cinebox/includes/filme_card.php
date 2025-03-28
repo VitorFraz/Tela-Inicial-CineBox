@@ -1,6 +1,6 @@
 <div class="col-lg-<?= isset($qntd) ? $qntd : 3 ?> col-md-6 col-sm-12">
     <figure>
-        <a href="./">
+        <a href="filmes-consultar.php?id=<?= $value['id'] ?>">
         <img src="./assets/img/poster/<?=$value['poster'] ?>" alt="Poster_Filme" class="foto-produto">
         <figcaption>
             <h4><?= $value['nome'] ?></h4>

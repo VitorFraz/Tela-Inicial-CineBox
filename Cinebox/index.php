@@ -7,7 +7,7 @@ include './includes/header.php';
 include './includes/banner.php';
 
 $filmes = new Filmes();
-$dadosFilmes = $filmes -> exibirListarFilmes(12);
+$dadosFilmes = $filmes -> exibirListarFilmes(24);
 
 $genero = new Generos();
 
